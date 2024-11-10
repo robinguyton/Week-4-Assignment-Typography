@@ -42,14 +42,20 @@ h1 { font-size: 2.5em;
 }
 
 h2 { font-size: 2em;
-	border-bottom: solid 1px;
+	border-bottom: solid 3px;
 	border-color: black;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width:fit-content
 
 }
 
 h3 { font-size: 2em;
-	border-bottom: solid 2px;
+	border-bottom: solid 3px;
 	border-color: black;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width: fit-content;
 	
 }
 
@@ -63,12 +69,13 @@ main {
 }
 
 p { font-family: sans-serif;
+	font-size: 25px;
 	font-weight: 500;
-
-}
-
-#intro {
-
+	line-height: 145%;
+	text-align: justify;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	width: 80ch
 }
 
 #how-does-it-work, #influence, #joke {
