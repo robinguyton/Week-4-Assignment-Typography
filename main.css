@@ -23,7 +23,7 @@ a:focus, a:hover {
 	transition-property: background;
 }
 
-body {
+body { font-size: 20px;
 
 }
 
@@ -31,23 +31,30 @@ code {
 	
 }
 
-h1, h2, h3 {
+h1, h2, h3 { 
+	margin-top: 15px;
+	margin-bottom: 5px;
 
 }
 
-h1 {
+h1 { font-size: 2.5em;
 
 }
 
-h2 {
+h2 { font-size: 2em;
+	border-bottom: solid 1px;
+	border-color: black;
 
 }
 
-h3 {
+h3 { font-size: 2em;
+	border-bottom: solid 2px;
+	border-color: black;
 	
 }
 
-header {
+header { padding: 20px;
+	text-align: center;
 	
 }
 
@@ -55,7 +62,8 @@ main {
 
 }
 
-p {
+p { font-family: sans-serif;
+	font-weight: 500;
 
 }
 
